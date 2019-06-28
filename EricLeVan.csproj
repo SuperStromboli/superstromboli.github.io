@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{F66D9194-A36F-4E61-BF24-33A44AF77512}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>ConsoleApplication</AssemblyName>
@@ -29,6 +29,9 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>EricLeVan</RootNamespace>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -37,6 +40,51 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="about.md" />
+    <None Include="contact.md" />
+    <None Include="assets\main.scss" />
+    <None Include="Gemfile" />
+    <None Include="Gemfile.lock" />
+    <None Include="index.md" />
+    <None Include="_config.yml" />
+    <None Include="_posts\2019-06-27-ruminations-on-running-a-long-dungeons-and-dragons-campaign.md" />
+    <None Include="_sass\minima.scss" />
+    <None Include="_sass\minima\_base.scss" />
+    <None Include="_sass\minima\_layout.scss" />
+    <None Include="_sass\minima\_syntax-highlighting.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="assets\images\glrel-world-map-small.jpg" />
+    <Content Include="_includes\disqus_comments.html" />
+    <Content Include="_includes\footer.html" />
+    <Content Include="_includes\google-analytics.html" />
+    <Content Include="_includes\head.html" />
+    <Content Include="_includes\header.html" />
+    <Content Include="_includes\icon-github.html" />
+    <Content Include="_includes\icon-github.svg" />
+    <Content Include="_includes\icon-twitter.html" />
+    <Content Include="_includes\icon-twitter.svg" />
+    <Content Include="_includes\social.html" />
+    <Content Include="_layouts\default.html" />
+    <Content Include="_layouts\home.html" />
+    <Content Include="_layouts\about.html" />
+    <Content Include="_layouts\page.html" />
+    <Content Include="_layouts\post.html" />
+    <Content Include="_site\404.html" />
+    <Content Include="_site\about\index.html" />
+    <Content Include="_site\assets\main.css" />
+    <Content Include="_site\assets\minima-social-icons.svg" />
+    <Content Include="_site\contact\index.html" />
+    <Content Include="_site\EricLeVan.csproj" />
+    <Content Include="_site\feed.xml" />
+    <Content Include="_site\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_site\jekyll\update\2019\06\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
