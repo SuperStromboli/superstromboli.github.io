@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: ruminations-on-running-a-long-dungeons-and-dragons-campaign
 title:  "Ruminations on Running a Long Dungeons and Dragons Campaign"
 date:   2019-06-27 12:32:07 -0400
 categories: dnd dm ruminations
