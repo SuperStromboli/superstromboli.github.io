@@ -2,7 +2,7 @@
 layout: post
 permalink: /death-of-an-internet-friend.html
 title:  "Death of an Internet Friend"
-date:   2019-07-16 12:32:07 -0500
+date:   2019-07-16 10:32:07 -0500
 categories: death friend internet
 ---
 A few weeks ago a friend of mine passed away suddenly.
