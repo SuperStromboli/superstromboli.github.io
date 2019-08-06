@@ -50,6 +50,8 @@
     <None Include="Gemfile.lock" />
     <None Include="index.md" />
     <None Include="_config.yml" />
+    <None Include="_posts\2019-07-16-death-of-an-internet-friend - Copy.md" />
+    <None Include="_posts\2019-08-06-getting-things-done-as-a-new-parent.md" />
     <None Include="_posts\2019-06-27-ruminations-on-running-a-long-dungeons-and-dragons-campaign.md" />
     <None Include="_sass\minima.scss" />
     <None Include="_sass\minima\_base.scss" />
@@ -77,7 +79,6 @@
     <Content Include="_site\404.html" />
     <Content Include="_site\about\index.html" />
     <Content Include="_site\assets\main.css" />
-    <Content Include="_site\assets\minima-social-icons.svg" />
     <Content Include="_site\contact\index.html" />
     <Content Include="_site\EricLeVan.csproj" />
     <Content Include="_site\feed.xml" />
