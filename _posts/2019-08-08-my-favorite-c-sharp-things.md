@@ -9,7 +9,7 @@ C# and .NET have become my very favorite tools for developing applications.  The
 
 Working with [Xamarin](https://en.wikipedia.org/wiki/Xamarin){:target="_blank"} has given me an additional perspective as I've had to port Java, Swift and Objective C code into C# on many occasions.  Porting all that code has taught me many things about C# naming conventions.
 
-## Getters, setters and automatic properties.
+## Getters, Setters and Automatic Properties
 
 {% highlight csharp %}
 class MyThing {
